@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+ 
+}
+
+body{
+   background: #1A1C33;
+}
+
+.csFont{
+font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.hero{
+  background: url(../images/ew.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+#timeline{
+  background: url(../images/hr.png);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+
+.multiColorTxt {
+  background: -webkit-linear-gradient(45deg, #00b0ff, #98EC65);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.csBtn{
+
+  padding-left: 1rem;
+}
+
+
+.customAqua{
+  background: #00b0ff;
+
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.bbimg2,
+.bbimg1 {
+  background: rgba(255, 255, 255, 0.050);
+  border-radius: 16px;
+  box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
+  0px 2px 4px rgba(3, 7, 18, 0.03),
+  0px 4px 9px rgba(3, 7, 18, 0.05),
+  0px 8px 15px rgba(3, 7, 18, 0.06),
+  0px 12px 24px rgba(3, 7, 18, 0.08);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+}
+
+.saon{
+color: #dde3ea;
+}
+
+.glassEf{
+  background: rgba(255, 255, 255, 0.050);
+  border-radius: 16px;
+  box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
+  0px 2px 4px rgba(3, 7, 18, 0.03),
+  0px 4px 9px rgba(3, 7, 18, 0.05),
+  0px 8px 15px rgba(3, 7, 18, 0.06),
+  0px 12px 24px rgba(3, 7, 18, 0.08);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.glassEfl{
+    background: rgba(255, 255, 255, 0.050);
+    /* border-radius: 16px; */
+    box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
+    0px 2px 4px rgba(3, 7, 18, 0.03),
+    0px 4px 9px rgba(3, 7, 18, 0.05),
+    0px 8px 15px rgba(3, 7, 18, 0.06),
+    0px 12px 24px rgba(3, 7, 18, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+
+section{
+  padding: 80px 0px;
+}
+
+.hero-overlay {
+background-color: #000000;
+opacity: .7 !important;
+
+}
+
+#bigbang {
+  background: url(../images/nrbula.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+#astro{
+    background: url(../images/he.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#star{
+  background: url(../images/lala.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+#blackHole{
+  background: url(../images/star.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+#darkM{
+  background: url(../images/blackblack.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.csStarImg{
+  height: 100%;
+}
+
+#galaxy{
+  background: url(../images/gm.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+#solarSystem{
+  background: url(../images/mm.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+#universe{
+    background: url(../images/hhl.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.dos{
+    background: url(../images/qt.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+#nebula{
+  background: url(../images/sd.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+#meteors {
+  background: url(../images/er.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.customOverlay{
+  background-color: #000000;
+  opacity: 50%;
+
+}
+.customOverlay2{
+  background-color: #000000;
+  opacity: 50%;
+}
+
+
+#planet,
+#sun,
+#mercury,
+#venus,
+#jupiter,
+#mars,
+#saturn,
+#neptune,
+#uranus,
+#moon {
+  background: url(../images/hr.png);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#footer{
+  background: url(../images/widegl.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+
+}
